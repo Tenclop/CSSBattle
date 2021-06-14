@@ -1,0 +1,47 @@
+<div class="rectangle">
+  <div class="empty">
+    <div class="out">
+      <div class="inner"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    background: #6592cf;
+  }
+  .rectangle {
+    margin: 75px 50px;
+    width: 300px;
+    height: 150px;
+    background: #243d83;
+    position: relative;
+  }
+  .empty {
+    width: 260px;
+    height: 150px;
+    border-radius: 90px;
+    position: absolute;
+    background: #6592cf;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .out {
+    background: #243d83;
+    width: 150px;
+    height: 150px;
+    margin: -30 auto;
+    border-radius: 50%;
+  }
+
+  .inner {
+    background: #eeb850;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px auto;
+    transform: translate(0%, 100%);
+  }
+</style>
